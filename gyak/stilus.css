@@ -1,0 +1,59 @@
+div {
+    margin-top: 6mm;
+    margin-bottom: 6mm;
+    border-style: dotted;
+    border-width: 5px;
+    border-color: burlywood;
+}
+
+div p {
+    margin: 3mm 3mm 3mm 3mm;
+    margin-top: 2mm;
+    margin-bottom: 2mm;
+    padding: 6mm 6mm;
+    text-align: justify;
+    background-color: cornsilk;
+
+}
+
+p:nth-child(-n+5){
+    text-indent: 1.5cm
+}
+
+.bal {
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+
+.jobb {
+    width: 80%;
+    position: initial;
+    
+    
+}
+
+.piros {
+    border-right-style: double;
+    border-width: 3mm;
+    border-color: darkred;
+}
+
+.kék { 
+    padding-bottom: 1cm;
+    border-left-width: 1mm;
+    border-left-style: dashed;
+    border-left-color: blueviolet;
+    border-bottom-style: dashed;
+    border-bottom-color: blue;
+    border-bottom-width: 2mm;
+}
+
+#sp {
+    font-variant: small-caps;
+    color:crimson;
+}
